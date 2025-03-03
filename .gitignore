@@ -1,0 +1,17 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore binaries for each app
+/apps/*/*-linux
+/apps/*/*-windows.exe
+/apps/*/*-macos
+/apps/*/*-dev
+
+*.env
